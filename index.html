@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mothers day</title>
+    <link rel="icon" type="image/png" href="Manali Raymondal.png">
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(to bottom, #ebd18a ,#a88934);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .font1 {
+              font-family: "Open Sans", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 500;
+              font-style: normal;
+              font-variation-settings:
+                "wdth" 100;
+        }
+        .title {
+            font-size: 70px;
+            background:linear-gradient(to right,#4f3b03,#292722);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 900;
+        }
+        .end {
+            font-size: 30px;
+            background:linear-gradient(to right,#4f3b03,#292722);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body class="font1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <p class="title">Happy Mothers Day</p>
+    <div style="width: 100%;display: flex;justify-content: center;"><div style="width: 310px;height: 210px;background-image: url(Manali\ Raymondal.png);background-repeat: no-repeat;background-size: cover;" id="card-p1" onmouseover="document.getElementById('card-p2').style.opacity='1'" onmouseover="document.getElementById('card-p2').style.opacity='flex'" onmouseout="document.getElementById('card-p2').style.opacity='0'" onclick="open1()"><div style="width: 100%;height: 100%;background: rgba(15, 15, 15, 0.8);cursor: pointer;display: flex;justify-content: center;align-items: center;transition: 0.5s;opacity: 0;" id="card-p2"><p style="font-size: 30px;color: rgb(236, 232, 201);user-select: none;text-align: center;" id="txt1">Open the Card</p></div></div></div>
+    <div style="width: 100%;display: flex;justify-content: center;"><div style="width: 310;height: 0;background-color: white;overflow: hidden;transition: 1s;" id="rpc1">
+        <p style="text-align: center;font-size: 40px;font-weight: 900;">Happy Mothers Day</p>
+        <div style="margin-left: 5px;width: 97%;text-align: justify;"><a >Happy Mothers day mother,I'm sorry that I forgot to wish you and give you <span style="text-decoration: line-through;">card</span>. Thanks for raising and taking care of me. Today's mothers day and a special day for you and all the other mothers. So enjoy the day!!<br><br><span style="font-style: italic;">-Ryan</span></a></div><br>
+    </div></div><br>
+    <p class="end">Made by Ryan with 💓</p>
+<script>
+    var opened = false
+    function open1() {
+            if(opened===false) {
+                document.getElementById("txt1").innerHTML = "Letter is down below.."
+                document.getElementById("rpc1").style.width = "310px"
+                document.getElementById("rpc1").style.height = "100%"
+                document.getElementById("rpc1").style.marginTop = "20px"
+                opened = true
+            }
+    }
+</script>
+</body>
+</html>
